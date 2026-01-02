@@ -3,15 +3,15 @@
   path: modules/fzf/modules.txt
   type: file
 - dest: vendor/github.com/charlievieth/fastwalk
-  sha256: 6c657b20f8b99683e4676b95149895d3f480c27d20c2c3358708cd406340c43d
+  sha256: 08fb812ab587d7bb10d70d88adce496218e7501c7b1719138937a54d81f5fec9
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/github.com/charlievieth/fastwalk/@v/v1.0.10.zip
+  url: https://proxy.golang.org/github.com/charlievieth/fastwalk/@v/v1.0.14.zip
 - dest: vendor/github.com/gdamore/tcell/v2
-  sha256: 28ec9a195c369405a264531593e1d5c394ba3e1926792a2ba3069e17ffe7b7ac
+  sha256: e36d0cb01474c5456b4fd28dc6b0c1dc115d1788ed174885afd4bf5fa2b9af42
   strip-components: 4
   type: archive
-  url: https://proxy.golang.org/github.com/gdamore/tcell/v2/@v/v2.8.1.zip
+  url: https://proxy.golang.org/github.com/gdamore/tcell/v2/@v/v2.9.0.zip
 - dest: vendor/github.com/junegunn/go-shellwords
   sha256: 98c5c4410d555d1268b4048ddd9acaf925660fb19e65d746a70f0ba5c6308616
   strip-components: 3
@@ -28,15 +28,15 @@
   type: archive
   url: https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.4.7.zip
 - dest: vendor/golang.org/x/sys
-  sha256: f5214bfec98f00e5432da68bbece03e98600fa41594ed026556cbde8fcb6f7c9
+  sha256: dc3c20611168aaa8fda0d71999be1a5222a0ba57bc767c978a590e41ff2ede35
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/golang.org/x/sys/@v/v0.30.0.zip
+  url: https://proxy.golang.org/golang.org/x/sys/@v/v0.35.0.zip
 - dest: vendor/golang.org/x/term
-  sha256: 9d92c583d222113ac653848b3319ff559d2dba92f8232baff03d08fc9c0b8619
+  sha256: 22281cbf30560433d57de8d72c1151f9cac2917795dc6e9f694f7a525bb5309c
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/golang.org/x/term/@v/v0.29.0.zip
+  url: https://proxy.golang.org/golang.org/x/term/@v/v0.34.0.zip
 - dest: vendor/github.com/gdamore/encoding
   sha256: e584303c743306ae55be21a5703900d0628aa2ef840ce49d5f0bbf7c51379e33
   strip-components: 3
@@ -53,7 +53,7 @@
   type: archive
   url: https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.16.zip
 - dest: vendor/golang.org/x/text
-  sha256: be3db791651af6f2cb0225aa5d5578c23149b2017246ba8e59586080baadd612
+  sha256: 46259e1416ae7ec6adf1867c5f9fab32af0476a148e3c95f1dfbb134f4acf48d
   strip-components: 3
   type: archive
-  url: https://proxy.golang.org/golang.org/x/text/@v/v0.21.0.zip
+  url: https://proxy.golang.org/golang.org/x/text/@v/v0.28.0.zip

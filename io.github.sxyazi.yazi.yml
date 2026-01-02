@@ -1,6 +1,6 @@
 id: io.github.sxyazi.yazi
 runtime: org.freedesktop.Platform
-runtime-version: &runtime-version '24.08'
+runtime-version: &runtime-version '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -35,8 +35,8 @@ modules:
       - /share/git-gui
     sources:
       - type: archive
-        url: https://www.kernel.org/pub/software/scm/git/git-2.50.0.tar.xz
-        sha256: dff3c000e400ace3a63b8a6f8b3b76b88ecfdffd4504a04aba4248372cdec045
+        url: https://www.kernel.org/pub/software/scm/git/git-2.52.0.tar.xz
+        sha256: 3cd8fee86f69a949cb610fee8cd9264e6873d07fa58411f6060b3d62729ed7c5
         x-checker-data:
           type: anitya
           project-id: 5350
@@ -52,8 +52,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/stedolan/jq
-        tag: jq-1.8.0
-        commit: d23a7b9db932be706fecf5f4c9711fd4214bb64e
+        tag: jq-1.8.1
+        commit: 4467af7068b1bcd7f882defff6e7ea674c5357f4
         x-checker-data:
           type: anitya
           project-id: 13252
@@ -73,8 +73,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/ImageMagick/ImageMagick.git
-        tag: 7.1.1-47
-        commit: 82572afc879b439cbf8c9c6f3a9ac7626adf98fb
+        tag: 7.1.2-12
+        commit: bdd4fa561d7bf4c6afd40ee9c89e9f9e82b6e88b
         x-checker-data:
           type: anitya
           project-id: 1372
@@ -95,8 +95,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/junegunn/fzf.git
-        tag: v0.62.0
-        commit: d226d841a1f2b849b7e3efab2a44ecbb3e61a5a5
+        tag: v0.67.0
+        commit: 2ab923f3ae04d5e915e5ff4a9cd3bd515bfd1ea5
         x-checker-data:
           type: anitya
           project-id: 15856
@@ -117,8 +117,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/BurntSushi/ripgrep.git
-        tag: 14.1.1
-        commit: 4649aa9700619f94cf9c66876e9549d83420e16c
+        tag: 15.1.0
+        commit: af60c2de9d85e7f3d81c78601669468cf02dabab
         x-checker-data:
           type: anitya
           project-id: 15461
@@ -138,8 +138,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/sharkdp/fd.git
-        tag: v10.2.0
-        commit: b19136871310b01500b4f09eadd7387b8476be47
+        tag: v10.3.0
+        commit: d38148f0aabdd073b4080cde770f679f3197b920
         x-checker-data:
           type: anitya
           project-id: 373722
@@ -200,8 +200,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/1player/host-spawn.git
-        tag: v1.6.1
-        commit: db1173ae2ef04beca8961a35c225117498263e23
+        tag: v1.6.2
+        commit: d76c3a5196a8e0943f6a1c7c9f1acde4bd83c40c
         x-checker-data:
           type: anitya
           project-id: 270202
@@ -245,8 +245,8 @@ modules:
       - -DENABLE_BOOST=OFF
     sources:
       - type: archive
-        url: https://poppler.freedesktop.org/poppler-25.06.0.tar.xz
-        sha256: 8199532d38984fab46dbd0020ec9c40f20e928e33e9b4cc6043572603a821d83
+        url: https://poppler.freedesktop.org/poppler-25.12.0.tar.xz
+        sha256: c18b40eb36b1a0c5b86e29ca054bf0770304583da4f2cdd42fe86eca6a20de48
         x-checker-data:
           type: anitya
           project-id: 3686
@@ -280,8 +280,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/sxyazi/yazi.git
-        tag: v25.5.31
-        commit: b65a88075a824e4304dca5428ba05de1404fa635
+        tag: v25.12.29
+        commit: f31147d246b8930dd82f2c45b24a230896d3fda4
         x-checker-data:
           type: anitya
           project-id: 370571
