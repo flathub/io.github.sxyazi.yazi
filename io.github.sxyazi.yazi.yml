@@ -6,14 +6,6 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
   - org.freedesktop.Sdk.Extension.golang
 command: yazi-wrapper.sh
-add-extensions:
-  # Needs ffmpeg to generate video preview thumbnails
-  org.freedesktop.Platform.ffmpeg-full:
-    directory: lib/ffmpeg
-    add-ld-path: .
-    version: *runtime-version
-    no-autodownload: false
-    autodelete: true
 
 finish-args:
   # File manager needs access to every file
